@@ -1,0 +1,23 @@
+.sm-pink-black,
+.big-pink-black {
+    color: #000000;
+    background-color: #d18181;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#clear-blue {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.big-pink-black {
+    font-size: 24px;
+}
+
+#green-black {
+    color: #000000;
+    background-color: #56a356;
+    font-size: 24px;
+    font-weight: bold;
+}
+
