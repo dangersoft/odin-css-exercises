@@ -5,17 +5,23 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+  /* border: 2px dotted; */
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  margin: 0px;
+  padding: 6px;
   border-radius: 8px;
   background: #eee;
+  /* border: 2px dotted; */
 }
 
 input {
@@ -24,4 +30,67 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  /* border: 2px dotted; */
+}
+
+.header {
+  display: flex;
+  flex: 0 1 auto;
+  padding: 10px;
+  /* border: 2px dotted; */
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  flex: 1;
+  margin: 15px;
+  padding: 10px;
+  align-items: center;
+  /* border: 2px dotted; */
+}
+
+.footer {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: flex-end;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #eeeeee;
+  /* border: 2px dotted; */
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  /* border: 2px dotted blue; */
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  /* border: 2px dotted; */
+}
+
+ul {
+  list-style-type: none;
+  /* border: 2px dotted red; */
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  /* border: 2px dotted; */
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
